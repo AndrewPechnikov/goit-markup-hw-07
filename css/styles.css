@@ -56,12 +56,9 @@ a {
 .section {
   padding: 94px 0px;
 
-  /* outline: solid 2px tomato; */
 }
 
-.zero-top-padding {
-  padding-top: 0;
-}
+
 
 /* Header */
 .header__container {
@@ -199,13 +196,7 @@ a {
   background-position: center;
 }
 
-.hero.section {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  text-align: center;
-}
-
-.hero-title {
+.hero__title {
   max-width: 696px;
   margin-top: 0;
   margin-bottom: 28px;
@@ -220,7 +211,7 @@ a {
   text-transform: uppercase;
 }
 
-.hero .open-modal {
+.hero__modal--open {
   display: inline-block;
   min-width: 200px;
   border-radius: 4px;
@@ -236,7 +227,7 @@ a {
   cursor: pointer;
 }
 
-.section-title {
+.section__title {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -249,7 +240,10 @@ a {
 }
 
 /* Features */
-.features .title {
+
+
+
+.features__title {
   margin-top: 0;
   margin-bottom: 10;
 
@@ -260,17 +254,19 @@ a {
   text-transform: uppercase;
 }
 
-.features.list {
+.features__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.features.list > li {
+
+
+.features__list--item {
   width: 270px;
 }
 
-.features .description {
+.features__description {
   margin: 0;
 }
 
@@ -285,21 +281,26 @@ a {
 }
 
 /* Services */
-.services.list {
+
+.section--zero-top-padding {
+  padding-top: 0;
+}
+
+.services__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.services .item {
+.services__list--item {
   position: relative;
 }
 
-.services.list img {
+.services__list--image{
   display: block;
 }
 
-.services-title {
+.services__title {
   position: absolute;
   bottom: 0px;
 
@@ -320,18 +321,23 @@ a {
 
 /* Command */
 
-.command.list {
+.section--dark-background {
+  background-color: #f5f4fa;
+}
+
+
+.command__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.command.list img {
+.command__list--image {
   display: block;
   margin-bottom: 30px;
 }
 
-.command .name {
+.command__name {
   margin-top: 0px;
   margin-bottom: 10px;
 
@@ -343,7 +349,7 @@ a {
   text-align: center;
 }
 
-.command .description {
+.command__description {
   margin: 0;
   margin-bottom: 16px;
   font-weight: 400;
@@ -352,19 +358,18 @@ a {
   text-align: center;
 }
 
-.command.list > .item {
+.command__list--item {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.command.list > .item {
   padding-bottom: 30px;
 
   background-color: var(--white-text);
 }
 
-.social-networks {
+
+
+.social-networks-list {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -395,9 +400,6 @@ a {
   background-color: var(--focus-color);
 }
 
-.command-background {
-  background-color: #f5f4fa;
-}
 
 /* Partners */
 
