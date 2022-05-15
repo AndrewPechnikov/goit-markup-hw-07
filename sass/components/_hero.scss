@@ -14,40 +14,37 @@
     background-repeat: no-repeat;
     background-size: 1600px;
     background-position: center;
+}
 
-    &__title{
-        max-width: 696px;
-        margin-top: 0;
-        margin-bottom: 28px;
-        margin-right: auto;
-        margin-left: auto;
+.hero__title{
+    max-width: 696px;
+    margin-top: 0;
+    margin-bottom: 28px;
+    margin-right: auto;
+    margin-left: auto;
 
-        color: $white-font-color;;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-    }
+    color: $white-font-color;;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
 
-    &__modal--open {
-        display: inline-block;
-        min-width: 200px;
-        border-radius: 4px;
-        border: 0px;
-        padding: 10px 32px;
-      
-        color: $white-font-color;
-        background-color: $focus-color;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.87;
-        letter-spacing: 0.06em;
-        cursor: pointer;
-
-
-
-  }
+.hero__modal--open {
+    display: inline-block;
+    min-width: 200px;
+    border-radius: 4px;
+    border: 0px;
+    padding: 10px 32px;
+    
+    color: $white-font-color;
+    background-color: $focus-color;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;  
 }
 
 .section__title {

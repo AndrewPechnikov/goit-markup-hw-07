@@ -17,9 +17,6 @@
 
 }
 
-
-
-
 .logo {
   
     color: $additional-font-color;
@@ -33,10 +30,6 @@
         color: $focus-color;
     }
 }
-
-
-
-
 
 
 /* Menu */
@@ -54,7 +47,6 @@
     &__item:not(:last-child){
        margin-right: 50px;
     }
-
     
 }
 
@@ -101,14 +93,14 @@
 }
 
 /* Header contacts */
-.header{
-    &__contacts {
-        display: flex;
-        align-items: center;
-        margin-left: auto;
-    }
+.header__contacts {
+  
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    
 
-    &__contacts--link {
+    &--link {
         display: flex;
         align-items: center;
         color: $main-font-color;
@@ -121,8 +113,8 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    &__contacts--link:hover,
-    &__contacts--link:focus{
+    &--link:hover,
+    &--link:focus{
        color: $focus-color;
     }
 }

@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
@@ -68,54 +68,54 @@
       <div class="container">
         <ul class="features__list list">
           <li class="features__list--item  ">
-            <div class="features__thumb">
+            <div class="features__item--thumb">
               <svg width="70" height="70">
                 <use href="./image/icons.svg#icon-antenna">
                 </use>
               </svg>
             </div>
 
-            <h3 class="features__title">Внимание к деталям</h3>
-            <p class="features__description ">
+            <h3 class="features__item--title">Внимание к деталям</h3>
+            <p class="features__item--description ">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li class="features__list--item ">
-            <div class="features__thumb">
+            <div class="features__item--thumb">
               <svg width="70" height="70">
                 <use href="./image/icons.svg#icon-clock">
                 </use>
               </svg>
             </div>
-            <h3 class="features__title">Пунктуальность</h3>
-            <p class="features__description ">
+            <h3 class="features__item--title">Пунктуальность</h3>
+            <p class="features__item--description ">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li class="features__list--item ">
-            <div class="features__thumb">
+            <div class="features__item--thumb">
               <svg width="70" height="70">
                 <use href="./image/icons.svg#icon-diagram">
                 </use>
               </svg>
             </div>
-            <h3 class="features__title">Планирование</h3>
-            <p class="features__description">
+            <h3 class="features__item--title">Планирование</h3>
+            <p class="features__item--description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li class="features__list--item ">
-            <div class="features__thumb">
+            <div class="features__item--thumb">
               <svg width="70" height="70">
                 <use href="./image/icons.svg#icon-astronaut">
                 </use>
               </svg>
             </div>
-            <h3 class="features__title">Современные технологии</h3>
-            <p class="features__description">
+            <h3 class="features__item--title">Современные технологии</h3>
+            <p class="features__item--description">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -317,7 +317,7 @@
     <section class="section">
       <div class="container">
         <h3 class="section__title">Постоянные клиенты</h3>
-        <ul class="partners list">
+        <ul class="partner list">
           <li>
             <a href="" class="partner__link">
               <svg class="partner__logo" width="106px" height="60px">
@@ -458,49 +458,49 @@
       </button>
 
       <form class="modal__form js-speaker-form" autocomplete="off">
-        <p class="form__title">Оставьте свои данные, мы вам перезвоним</p>
+        <p class="modal__form--title">Оставьте свои данные, мы вам перезвоним</p>
 
-        <label class="form__item">
-          <span class="form__label">Имя</span>
-          <input type="text" class="form__input" name="name" autofocus />
-          <svg class="form__icon" width="18px" height="18px">
+        <label class="modal__form--item">
+          <span class="modal__form--label">Имя</span>
+          <input type="text" class="modal__form--input" name="name" autofocus />
+          <svg class="modal__form--icon" width="18px" height="18px">
             <use href="./image/icons.svg#icon-person">
             </use>
           </svg>
         </label>
 
-        <label class="form__item">
-          <span class="form__label">Телефон</span>
-          <input type="tel" class="form__input" name="tel">
-          <svg class="form__icon" width="18px" height="18px">
+        <label class="modal__form--item">
+          <span class="modal__form--label">Телефон</span>
+          <input type="tel" class="modal__form--input" name="tel">
+          <svg class="modal__form--icon" width="18px" height="18px">
             <use href="./image/icons.svg#icon-phone">
             </use>
           </svg>
         </label>
 
-        <label class="form__item">
-          <span class="form__label">Почта</span>
-          <input type="email" class="form__input" name="mail">
-          <svg class="form__icon" width="18px" height="18px">
+        <label class="modal__form--item">
+          <span class="modal__form--label">Почта</span>
+          <input type="email" class="modal__form--input" name="mail">
+          <svg class="modal__form--icon" width="18px" height="18px">
             <use href="./image/icons.svg#icon-mail">
             </use>
           </svg>
 
         </label>
 
-        <label class="form__item">
-          <span class="form__label">Комментарий</span>
-          <textarea class="comment" name="comment" placeholder="Введите текст"></textarea>
+        <label class="modal__form--item">
+          <span class="modal__form--label">Комментарий</span>
+          <textarea class="modal__form--comment" name="comment" placeholder="Введите текст"></textarea>
         </label>
 
 
-        <label class="form__checkbox--label">
-          <input type="checkbox" class="form__checkbox" name="accept">
-          <span class="form__checkbox--icon"></span>
-          Соглашаюсь с рассылкой и принимаю&nbsp; <a href="" class="form__chekbox-conditions"> Условия договора</a>
+        <label class="modal__form--checkbox-label">
+          <input type="checkbox" class="modal__form--checkbox" name="accept">
+          <span class="modal__form--checkbox-icon"></span>
+          Соглашаюсь с рассылкой и принимаю&nbsp; <a href="" class="modal__form--checkbox-conditions"> Условия договора</a>
         </label>
 
-        <button type="submit" class="form__modal--button">Отправить</button>
+        <button type="submit" class="modal__form--button">Отправить</button>
 
       </form>
 
