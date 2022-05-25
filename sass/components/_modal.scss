@@ -1,3 +1,4 @@
+// TODO: move backdrop to separate file _backdrop.scss
 .backdrop {
   position: fixed;
   top: 0;
@@ -17,6 +18,7 @@
 
 //modal window
 
+// TODO: modifier must be adjective, rename to .backdrop--hidden
 .backdrop--is-hidden .modal {
   transform: translate(-50%, -50%) scale(1.1);
 }

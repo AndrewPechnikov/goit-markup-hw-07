@@ -1,5 +1,6 @@
 /* Header */
 
+// TODO: rename file to _page-header.scss or rename class to .page-header
 .header {
   &__container {
     display: flex;
@@ -15,6 +16,7 @@
   }
 }
 
+// TODO: duplicating fragment, look at _logo.scss
 .logo {
   color: $additional-font-color;
   font-family: 'Raleway', sans-serif;
@@ -29,6 +31,7 @@
 }
 
 /* Menu */
+// TODO: rename to .header__menu or move to separate file _menu.scss
 .menu {
   position: relative;
 
@@ -86,6 +89,8 @@
 }
 
 /* Header contacts */
+// TODO: separate element .header__contacts-link from .header__contacts
+// TODO: or move to another file _header-contacts.scss
 .header__contacts {
   display: flex;
   align-items: center;
