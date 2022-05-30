@@ -1,17 +1,9 @@
 @import 'utils/variables';
 @import 'utils/global-selector';
 @import 'components/logo';
-@import 'components/header';
-@import 'components/footer';
-@import 'components/sections-portfolio';
-@import 'components/header-navigation';
-@import 'components/header-contacts';
 @import 'components/social-networks';
-@import 'components/studio-page/hero';
-@import 'components/studio-page/backdrop';
-@import 'components/studio-page/modal';
-@import 'components/studio-page/features';
-@import 'components/studio-page/services';
-@import 'components/studio-page/command';
-@import 'components/studio-page/partners';
-@import 'components/footer-form'
+@import 'components/header/index';
+@import 'components/studio-page/index';
+@import 'components/portfolio-page/index';
+@import 'components/footer/index';
+
